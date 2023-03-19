@@ -8,6 +8,7 @@ Table creation script
 medalscraper.jar
 -----------------
 Java JAR file -  application to scrape Auction websites and insert medals data into the database.
+
 Parameters: 
 1. Auction Number
 2. No of records
