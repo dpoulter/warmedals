@@ -14,4 +14,5 @@ Parameters:
 2. No of records
 
 Example:
+
 java -JAR medalscraper.java 670 800
