@@ -469,7 +469,7 @@
 	function call_stock_api($symbol) {
 		
 		write_log ('call_stock_api',"symbol=$symbol"); 
-		$string = file_get_contents("https://www.worldtradingdata.com/api/v1/stock?symbol=$symbol&api_token=ALFvINqaRaN1WSsJqL5CA6BGG79Hooi0siMCcHi1G5PUWm16f6eMa8MYD8Bi");
+		$string = file_get_contents("https://www.worldtradingdata.com/api/v1/stock?symbol=$symbol&api_token=my_access_key");
 		 
 		return $string;
     }
