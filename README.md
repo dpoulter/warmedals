@@ -4,3 +4,13 @@ Searchable database of War Medals that have been sold at auction. This is implem
 medals.sql
 ------
 Table creation script 
+
+medalscraper.jar
+-----------------
+Java JAR file -  application to scrape Auction websites and insert medals data into the database.
+Parameters: 
+1. Auction Number
+2. No of records
+
+Example:
+java -JAR medalscraper.java 670 800
