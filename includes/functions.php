@@ -79,7 +79,7 @@
 
         // open connection to GOOGLE
         $string = call_stock_api($symbol);
-        //$string = file_get_contents("https://www.worldtradingdata.com/api/v1/stock?symbol=$symbol&api_token=ALFvINqaRaN1WSsJqL5CA6BGG79Hooi0siMCcHi1G5PUWm16f6eMa8MYD8Bi");
+        //$string = file_get_contents("https://www.worldtradingdata.com/api/v1/stock?symbol=$symbol&api_token=my_access_key");
 
         
         // get uncommented json string
@@ -105,7 +105,7 @@
 		    //try without .L
 		    //$symbol=substr($symbol,0,strpos($symbol,'.')) ;
 	//		write_log("functions","Trying symbol=$symbol");
-    //    	$string = file_get_contents("https://www.worldtradingdata.com/api/v1/stock?symbol=$symbol&api_token=ALFvINqaRaN1WSsJqL5CA6BGG79Hooi0siMCcHi1G5PUWm16f6eMa8MYD8Bi");
+    //    	$string = file_get_contents("https://www.worldtradingdata.com/api/v1/stock?symbol=$symbol&api_token=myaccesskey");
 	//		$arrJson = json_decode($string, true);
 		//	write_log("functions","API returned: ".print_r($arrJson));
 //		}
