@@ -9,7 +9,7 @@
     define("DATABASE", "sharemanager");
 
     // your database's password
-    define("PASSWORD", "Dale1973!!");
+    define("PASSWORD", "password");
 
     // your database's server
     define("SERVER", "localhost");
@@ -21,16 +21,16 @@
 	define("SMTP_HOST","smtp.yandex.com");
 	
 	//smtp user name
-	define("SMTP_USERNAME","dale.poulter@yandex.com");
+	define("SMTP_USERNAME","my_username");
 	
 	//smtp password
-	define("SMTP_PASSWORD","dale1973");
+	define("SMTP_PASSWORD","my_password");
 	
 	//smtp port
 	define("SMTP_PORT","587");
 	
 	//site_url
-	define ("SITE_URL","https://shares.dpoulter.eu");
+	define ("SITE_URL","https://warmedals.duckdns.org");
 	
 
 ?>
