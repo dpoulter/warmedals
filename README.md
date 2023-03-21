@@ -15,4 +15,4 @@ Parameters:
 
 Example:
 
-java -JAR medalscraper.java 670 800
+java -jar medalscraper.java 670 800
